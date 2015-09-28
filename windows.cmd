@@ -7,4 +7,7 @@ REM Not fully work here
 choco install steam origin -y
 REM Need uplay also
 REM Some IDEs
-choco install visualstudiocode vs2013.4
+choco install visualstudiocode vs2013.4 -y
+REM Some console utilities
+choco install putty curl wget -y
+choco install git tortoisegit -y
